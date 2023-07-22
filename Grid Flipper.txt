@@ -47,10 +47,6 @@ steps to create:
 
 BONUS:
 
-allow user to specify grid size
+allow user to specify grid size (possible, but annoying)
 
-have all buttons in grid's colour randomised at start
-
-timer?
-
-high score system
+*have buttons colour in grid randomised at start
