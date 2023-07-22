@@ -1,0 +1,62 @@
+Flipper
+--------
+
+5x5 grid
+click square invert colour of square and those around it
+white to black to white
+
+
+								010
+								101
+								010
+								
+								 |
+								 V	
+
+								101
+								010
+								101
+scale to: 
+00000
+00000
+00000
+00000
+00000
+
+steps to create:
+
+create 5x5 grid of buttons some white some black
+
+each button has name as its co ords e.g. 4,5 or 45
+
+on click run switching script
+
+get button name and store in variable
+
+then either:
+-use string to char arry to get the 4 and 5 individually
+-char to int x,y
+
+or:
+-char to int xy
+-(function split(int input) {
+   Int x, y;
+   x = input / 10;
+   y = input % 10;
+})
+
+use math to find co ord of 4 adjacent (needs exceptions for edge and corner piece where adjacent square count < 4)
+
+flip colour property
+
+check if all white or all black or all white/black
+
+BONUS:
+
+allow user to specify grid size
+
+have all buttons in grid's colour randomised at start
+
+timer?
+
+high score system
