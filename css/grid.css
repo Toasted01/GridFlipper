@@ -1,4 +1,4 @@
-.grid {
+#grid {
 
 	/*centering*/
 	border: 5px solid;
@@ -22,7 +22,7 @@
 
 }
 
-.btn {
+.btn0 {
 	background-color: white;
 	border: 1px solid rgba(128, 128, 128, 0.5);
 	padding: 0.25em;
@@ -32,4 +32,36 @@
 	background-color: black;
 	border: 1px solid rgba(128, 128, 128, 0.5);
 	padding: 0.25em;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+footer{
+	background:grey;
+	color:white; 	
+	text-align: center;
+	position: absolute;
+  	right: 0;bottom:0;left:0;
+	font-size: medium;
+	font-family: sans-serif;
+}
+
+.container{
+	height: 50px;
+	position: relative;
+}
+  
+.center{
+    position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	padding: 10px;
+}
+
+#restart{
+	padding: 15px 32px;
+	font-size: 16px;	
 }

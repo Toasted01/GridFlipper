@@ -1,5 +1,7 @@
 Flipper
 --------
+!Main requirements complete!
+
 
 5x5 grid
 click square invert colour of square and those around it
@@ -33,15 +35,15 @@ steps to create:
 
 *get button name and store in variable
 
-then char to int the id
+*then char to int the id
 
-(id/10, id%10)
+*(id/10, id%10)
 
-use math to find co ord of 4 adjacent (needs exceptions for edge and corner piece where adjacent square count < 4)
+*use math to find co ord of 4 adjacent (needs exceptions for edge and corner piece where adjacent square count < 4)
 
-flip colour property
+*flip colour property
 
-check if all white or all black or all white/black
+*check if all white or all black or all white/black
 
 BONUS:
 
