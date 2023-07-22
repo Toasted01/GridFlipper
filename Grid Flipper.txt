@@ -25,25 +25,17 @@ scale to:
 
 steps to create:
 
-create 5x5 grid of buttons some white some black
+*create 5x5 grid of buttons some white some black
 
-each button has name as its co ords e.g. 4,5 or 45
+*each button has name as its co ords e.g. 4,5 or 45
 
-on click run switching script
+*on click run switching script
 
-get button name and store in variable
+*get button name and store in variable
 
-then either:
--use string to char arry to get the 4 and 5 individually
--char to int x,y
+then char to int the id
 
-or:
--char to int xy
--(function split(int input) {
-   Int x, y;
-   x = input / 10;
-   y = input % 10;
-})
+(id/10, id%10)
 
 use math to find co ord of 4 adjacent (needs exceptions for edge and corner piece where adjacent square count < 4)
 
