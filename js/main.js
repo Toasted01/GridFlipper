@@ -2,15 +2,15 @@
  * function to turn black buttons white
  * @param {*} btnId 
  */
-const isBlack = (btnId) => {
-    document.getElementById(btnId).style.backgroundColor = "white";
+const swapBlack = (btnId) => {
+    document.getElementById(btnId).style.backgroundColor = "White";
 }
 
 /**
  * function to turn white buttons black
  * @param {*} btnId 
  */
-const isWhite = (btnId) => {
+const swapWhite = (btnId) => {
     document.getElementById(btnId).style.backgroundColor = "Black";
 }
 
@@ -100,9 +100,7 @@ const winCondition =() =>{
  * @param {*} max 
  * @returns 
  */
-function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
-}
+const getRandomArbitrary = (min,max) => Math.random() * (max - min) + min;
 
 /**
  * onClick button that wipes the board clean then produces between 1-5 random black squares on the board
