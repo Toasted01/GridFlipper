@@ -148,7 +148,7 @@ const flip = (btnId) => {
     let btnArray = getAdjacent(btnId);
     btnArray.forEach(element => {
         let thisBtn = window.getComputedStyle(document.getElementById(element)).backgroundColor;
-        (thisBtn == "rgb(0, 0, 0)") ? isBlack(element) : isWhite(element);
+        (thisBtn == "rgb(0, 0, 0)") ? swapBlack(element) : swapWhite(element);
     }); 
     console.log("here");
     winCondition();
